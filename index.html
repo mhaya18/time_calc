@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>time_calc</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><img src="img/fune.png" alt="btext" width="25" height="25"> 起きる時間とか計算</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <span>来週から現場変わるわ～。電車は調べた。いつ起きる？（朝の準備時間は今と同じくらい）</span><br>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <span>（旧）起床時刻</span>
+                <input type="time" id="old_ki"><br>
+                <p class="tate">|</p><br>
+                <span>（旧）自宅を出る時刻</span>
+                <input type="time" id="old_ji"><br>
+                <p class="tate">|</p><br>
+                <span>（旧）電車の出発時刻</span>
+                <input type="time" id="old_de"><br>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <span>＊来週からは、何時の電車で行きますか？</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-2">
+                <input type="time" id="in_de"><br><br>
+            </div>
+            <div class="col-md-2">
+                <button type="button" id="button_keisan" value="value">新しい時刻で計算！</button>
+            </div>
+            <div class="col-md-2">
+                <button type="button" id="button_clear" value="value">消す</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <span>（新）起床時刻 </span>
+                <span id="new_ki"></span><br>
+                <p class="tate">|</p><br>
+                <span>（新）自宅を出る時刻 </span>
+                <span id="new_ji"></span><br>
+                <p class="tate">|</p><br>
+                <span>（新）電車の出発時刻 </span>
+                <span id="new_de"></span><br>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2">
+                <a href="https://github.com/mhaya18/time_calc" target="_blank" class="logo"><span class="logo_label">time_calc</span></a>
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
