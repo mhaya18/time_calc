@@ -1,9 +1,8 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  font-size:16px;
+  font-size:14px;
   background-color:#fff;
   color: #3a3a3a;
-
 }
 
 .row {
@@ -30,7 +29,7 @@ a:hover{
 
 h1 {
   color: #8c8c8c;
-  font-size: 24px;
+  font-size: 22px;
   font-weight:bold;
   margin: 5px 0px; // 上下 左右
 }
@@ -39,8 +38,13 @@ h2 {
   color: #3a3a3a;
   font-size: 16px;
   font-weight:bold;
-  margin: 15px 0px; // 上下 左右
+  margin: 5px 0px; // 上下 左右
 }
+
+input {
+  margin: 5px 0px; // 上下 左右
+}
+
 
 button {
   display: inline-block;
@@ -56,12 +60,6 @@ button {
 button:active {
   /*ボタンを押したとき*/
   transform: translateY(1px);/*下に動く*/
-}
-
-
-.tate {
-  font-size: 14px;
-  margin:5px 0px 0px 0px;
 }
 
 .logo {

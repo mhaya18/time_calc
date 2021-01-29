@@ -41,8 +41,6 @@ $(function() {
     // 自宅～電車までの時間
     var ji2de = keisan(old_ji, old_de);
 
-    // 電車
-    $('#new_de').text(in_de);
     // 自宅発
     $('#new_ji').text(keisan(ji2de, in_de));
 
